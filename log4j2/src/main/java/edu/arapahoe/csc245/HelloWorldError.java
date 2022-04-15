@@ -8,7 +8,6 @@ public class HelloWorldError {
     private static final Logger logger = LogManager.getLogger(HelloWorldError.class);
 
     public static void main(String[] args) {
-
         try {
             System.out.println(getData());
         } catch (IllegalArgumentException e) {
